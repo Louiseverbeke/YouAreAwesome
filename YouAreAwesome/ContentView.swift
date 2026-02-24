@@ -9,8 +9,8 @@ import SwiftUI
 import AVFAudio
 
 struct ContentView: View {
-    @State private var message=""
-    @State private var imageName=""
+    @State private var message = ""
+    @State private var imageName = ""
     @State private var lastMessageNumber = -1 //lastMessageNumber will never be -1
     @State private var lastImageNumber = -1
     @State private var lastSoundNumber = -1
@@ -117,7 +117,6 @@ struct ContentView: View {
     ContentView()
         .preferredColorScheme(.light)
 }
-
 #Preview("Dark Mode") {
     ContentView()
         .preferredColorScheme(.dark)
